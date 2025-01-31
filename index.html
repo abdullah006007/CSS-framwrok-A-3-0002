@@ -48,15 +48,108 @@
       .font-sora {
         font-family: "Sora", serif;
       }
+      .bubble-img{
+        width: 50px;
+        animation: bubbl 7s linear infinite;
+      }
+
+      .bubble-img:nth-child(1){
+        animation-delay: 0.5s;
+
+      }
+      .bubble-img:nth-child(2){
+        animation-delay: 1s;
+
+      }
+      .bubble-img:nth-child(3){
+        animation-delay: 2s;
+
+      }
+      .bubble-img:nth-child(4){
+        animation-delay: 3s;
+
+      }
+      .bubble-img:nth-child(5){
+        animation-delay: 4s;
+
+      }
+      .bubble-img:nth-child(6){
+        animation-delay: 3.5s;
+
+      }
+      .bubble-img:nth-child(7){
+        animation-delay: 6s;
+
+      }
+      .bubble-img:nth-child(8){
+        animation-delay: 7s;
+
+      }
+      .bubble-img:nth-child(9){
+        animation-delay: 0.01s;
+
+      }
+      .bubble-img:nth-child(10){
+        animation-delay: 6.5s;
+
+      }
+      .bubble-img:nth-child(11){
+        animation-delay: 8s;
+
+      }
+      .bubble-img:nth-child(12){
+        animation-delay: 8s;
+
+      }
+      .bubble-img:nth-child(13){
+        animation-delay: 8s;
+
+      }
+      .bubble-img:nth-child(14){
+        animation-delay: 8s;
+
+      }
+
+      @keyframes bubbl{
+        0%{
+          transform: translate(0);
+          
+          opacity: 0;
+        }
+
+        50%{
+          transform: translate(0);
+          opacity: 1;
+          transform: translateY(80vh);
+          
+          
+          
+        }
+
+        70%{
+          transform: translate(0);
+          opacity: 1;
+          
+          
+          
+        }
+
+        100%{
+          transform: translateY(-80vh) ;
+          
+          opacity:0 ;
+        }
+      }
     </style>
     <title>Document</title>
+
   </head>
 
 
 
   <body class="font-sora">
     <!-- header section -->
-    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] ">
       <!-- navbar section -->
       <section class="mb-20">
         <div class="max-w-screen-xl mx-auto">
@@ -109,34 +202,65 @@
       </section>
 
       <!-- Header Content Section -->
-      <section class="lg:mb-32 mb-12">
-        <div class="text-center">
-          <!-- text -->
-          <h1 class="font-semibold text-5xl mb-8">
-            Freshness
-            <span class="text-green-600"
-              >You Can <br />
-              Count</span
+      <div>
+        <section class="lg:mb-32 mb-12 ">
+          <!-- for bubble -->
+
+          <div class="text-center">
+            <!-- text -->
+            <h1 class="font-semibold text-5xl mb-8">
+              Freshness
+              <span class="text-green-600"
+                >You Can <br />
+                Count</span
+              >
+              On, Prices You’ll Love!
+            </h1>
+  
+            <small class="text-xl text-gray-500 font-normal mb-9"
+              >Shop your daily essentials at unbeatable prices. From fresh produce
+              to pantry <br />
+              staples, we’ve got you covered every day!</small
             >
-            On, Prices You’ll Love!
-          </h1>
+          </div>
+  
+         
+            <div class=" relative">
+              <!-- image -->
+              <img
+                class="mx-auto max-w-screen-lg container"
+                src="./images/hero-vegetables.png"
+                alt=""
+              />
+              <section class="mx-auto flex justify-center  bubbl">
+                <div class="w-4/5 flex items-center justify-between absolute -bottom-[70px]  ">
+                  <img class="w-8 bubble-img" src="./images/Tomatto.jpg" alt="">
+                  <img class="w-8 bubble-img" src="./images/onion.jpg" alt="">
+                  <img class="w-8 bubble-img" src="./images/potato.jpg" alt="">
+                  <img class="w-8 bubble-img" src="./images/vg1.png" alt="">
+                  <img class="w-8 bubble-img" src="./images/vg2.png" alt="">
+                  <img class="w-8 bubble-img" src="./images/vg3.png" alt="">
+                  <img class="w-8 bubble-img" src="./images/vg4.png" alt="">
+                  <img class="w-8 bubble-img" src="./images/vg5.png" alt="">
+                  <img class="w-8 bubble-img" src="./images/vg6.png" alt="">
+                  <img class="w-8 bubble-img" src="./images/vg7.png" alt="">
+                
 
-          <small class="text-xl text-gray-500 font-normal mb-9"
-            >Shop your daily essentials at unbeatable prices. From fresh produce
-            to pantry <br />
-            staples, we’ve got you covered every day!</small
-          >
-        </div>
+                  
+                  
+                  
+                  
+                </div>
+               </section>
+    
+            </div>
 
-        <div>
-          <!-- image -->
-          <img
-            class="mx-auto max-w-screen-lg container"
-            src="./images/hero-vegetables.png"
-            alt=""
-          />
-        </div>
-      </section>
+           
+          
+          
+        </section>
+      </div>
+
     </header>
 
 
@@ -231,6 +355,9 @@
 
 
       <!-- popular product section started -->
+       
+
+
        <section class="bg-secondary-back lg:mb-32 mb-12">
         <div class="max-w-screen-xl px-4 mx-auto lg:pb-32 pb-12">
           <h4 class="text-green-600 font-semibold text-4xl lg:pt-32 pt-12 mb-12">Popular Products</h4>
@@ -490,6 +617,54 @@
            </div>
 
         </section>
+
+
+        <!--Extra Section as Required -->
+        
+         <Section class="px-4">
+
+          <h2 class="font-extrabold max-w-screen-xl text-4xl text-green-600 mx-auto lg:mt-20   pt-20">The Ultimate Guide to Eating Healthy</h2>        
+          <!-- vegetable blog -->
+           <div class="lg:mt- mt-12 bg-secondary-back max-w-screen-xl px-4 mx-auto rounded-lg shadow-2xl">
+            
+            <div class="hero">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="/images/pexels-ella-olsson-572949-1640777.jpg"
+                  class="lg:max-w-md rounded-lg shadow-2xl" />
+                <div>
+                  <h1 class="text-3xl text-green-600 font-bold">Why Are Vegetables So Important?</h1>
+                  <p class="py-6">
+                    In today’s fast-paced world, it’s easy to overlook the simple yet essential components of a balanced diet. Among the most important foods to incorporate into our meals are vegetables. Packed with nutrients, fiber, and antioxidants, vegetables offer.... 
+                  </p>
+                  <button class="btn bg-green-clr text-white">Read more</button>
+                </div>
+              </div>
+            </div>
+           </div>
+
+         </Section>
+
+         <Section class="px-4">
+          <!-- vegetable blog tow -->
+           <div class="lg:mt-10 mt-8 bg-secondary-back max-w-screen-xl px-4 mx-auto rounded-lg shadow-2xl">
+            <div class="hero">
+              <div class="hero-content flex-col lg:flex-row-reverse">
+                <img
+                  src="/images/pexels-angele-j-35172-128402.jpg"
+                  class="lg:max-w-md rounded-lg shadow-2xl" />
+                <div>
+                  <h1 class="text-3xl text-green-600 font-bold">The Incredible Benefits of Green Vegetables...</h1>
+                  <p class="py-6">
+                    Green vegetables are often referred to as the “powerhouses” of nutrition, and for good reason. From leafy greens like spinach and kale to cruciferous veggies like broccoli and Brussels sprouts, these vibrant, nutrient-packed foods provide a wealth of health benefits that can elevate your wellness in countless ways..... 
+                  </p>
+                  <button class="btn bg-green-clr text-white">Read more</button>
+                </div>
+              </div>
+            </div>
+           </div>
+
+         </Section>
     </main>
 
     <!-- footer section -->
