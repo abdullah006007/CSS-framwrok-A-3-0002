@@ -1,0 +1,59 @@
+<!-- side container start -->
+<div>
+    <!-- con-two -->
+   <div class="h-24 md:h-28 w-44 md:w-72 bg-white flex justify-start items-center gap-4 rounded-lg">
+    <div class="bg-secondary-back  ml-4 rounded-lg">
+      <img class="md:w-20 w-14 " src="./images/onion-no-bg.png" alt="">
+    </div>
+    <div>
+      <!-- text -->
+       <div class="flex gap-1 items-center">
+        <!-- icon -->
+        <i class="fa-solid fa-star text-yellow-300 text-[10px] md:text-base"></i>
+        <p class="text-[10px] md:text-xl font-normal">4.5</p>
+       </div>
+       <p class="font-medium text-xs md:text-xl">Onion 1 KG</p>
+       <p class="text-[10px] md:text-base font-medium">$39.99</p>
+  
+    </div>
+    
+  </div>
+
+   <!-- con-three -->
+   <div class="h-24 md:h-28 w-44 md:w-72 bg-white flex justify-start items-center gap-4 rounded-lg">
+    <div class="bg-secondary-back  ml-4 rounded-lg">
+      <img class="md:w-20 w-14 " src="./images/onion-no-bg.png" alt="">
+    </div>
+    <div>
+      <!-- text -->
+       <div class="flex gap-1 items-center">
+        <!-- icon -->
+        <i class="fa-solid fa-star text-yellow-300 text-[10px] md:text-base"></i>
+        <p class="text-[10px] md:text-xl font-normal">4.5</p>
+       </div>
+       <p class="font-medium text-xs md:text-xl">Onion 1 KG</p>
+       <p class="text-[10px] md:text-base font-medium">$39.99</p>
+  
+    </div>
+    
+  </div>
+
+   <!-- con-three -->
+   <div class="h-24 md:h-28 w-44 md:w-72 bg-white flex justify-start items-center gap-4 rounded-lg">
+    <div class="bg-secondary-back  ml-4 rounded-lg">
+      <img class="md:w-20 w-14 " src="./images/onion-no-bg.png" alt="">
+    </div>
+    <div>
+      <!-- text -->
+       <div class="flex gap-1 items-center">
+        <!-- icon -->
+        <i class="fa-solid fa-star text-yellow-300 text-[10px] md:text-base"></i>
+        <p class="text-[10px] md:text-xl font-normal">4.5</p>
+       </div>
+       <p class="font-medium text-xs md:text-xl">Onion 1 KG</p>
+       <p class="text-[10px] md:text-base font-medium">$39.99</p>
+  
+    </div>
+    
+  </div>
+   </div>
