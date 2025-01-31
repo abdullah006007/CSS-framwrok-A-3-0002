@@ -51,6 +51,8 @@
       .bubble-img{
         width: 50px;
         animation: bubbl 7s linear infinite;
+        
+
       }
 
       .bubble-img:nth-child(1){
@@ -112,7 +114,7 @@
 
       @keyframes bubbl{
         0%{
-          transform: translate(0);
+          transform: translateY(0);
           
           opacity: 0;
         }
@@ -120,6 +122,7 @@
         50%{
           transform: translate(0);
           opacity: 1;
+          
           
           
           
@@ -132,10 +135,12 @@
           
           
           
+          
         }
 
         100%{
           transform: translateY(-80vh) ;
+          
           
           opacity:0 ;
         }
@@ -151,7 +156,7 @@
     <!-- header section -->
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] ">
       <!-- navbar section -->
-      <section class="mb-20">
+      <section class="mb-20 overflow-hidden">
         <div class="max-w-screen-xl mx-auto">
           <nav
             class="flex justify-between px-5 pb-2 items-center lg:mt-6 mt-3 border-b border-green-500 lg:border-b-0"
@@ -203,7 +208,7 @@
 
       <!-- Header Content Section -->
       <div>
-        <section class="lg:mb-32 mb-12 ">
+        <section class="lg:mb-32 mb-12 overflow-hidden ">
           <!-- for bubble -->
 
           <div class="text-center">
@@ -234,7 +239,7 @@
                 alt=""
               />
               <section class="mx-auto flex justify-center  bubbl">
-                <div class="w-4/5 flex items-center  justify-between absolute -bottom-[30px]  ">
+                <div class="w-4/5 flex items-center  justify-between absolute -bottom-[30px]   ">
                   <img class="w-8 bubble-img" src="./images/Tomatto.jpg" alt="">
                   <img class="w-8 bubble-img" src="./images/onion.jpg" alt="">
                   <img class="w-8 bubble-img" src="./images/potato.jpg" alt="">
@@ -267,7 +272,7 @@
     <!-- main section -->
     <main>
       <!-- services Section started -->
-      <section class="max-w-screen-xl mx-auto lg:mb-32 mb-16 px-4">
+      <section class="max-w-screen-xl mx-auto lg:mb-32 mb-16 px-4 overflow-hidden">
         <h4 class="font-semibold text-4xl mb-12 text-green-600">Services</h4>
 
         <!-- container -->
@@ -356,7 +361,7 @@
 
       <!-- popular product section started -->
       
-       <section class="bg-secondary-back lg:mb-32 mb-12">
+       <section class="bg-secondary-back lg:mb-32 mb-12 overflow-hidden">
         <div class="max-w-screen-xl px-4 mx-auto lg:pb-32 pb-12">
           <h4 class="text-green-600 font-semibold text-4xl lg:pt-32 pt-12 mb-12">Popular Products</h4>
 
@@ -575,7 +580,7 @@
 
        </section>
        <!-- section Arrival and offers -->
-        <section class=" max-w-screen-xl px-4 mx-auto">
+        <section class=" max-w-screen-xl px-4 mx-auto overflow-hidden">
           <h3 class="text-4xl font-semibold text-green-600 mb-12">Arrival & Offers</h3>
 
           <!-- container part started -->
@@ -619,7 +624,7 @@
 
         <!--Extra Section as Required -->
         
-         <Section class="px-4">
+         <Section class="px-4 overflow-hidden">
 
           <h2 class="font-extrabold max-w-screen-xl text-4xl text-green-600 mx-auto lg:mt-20   pt-20">The Ultimate Guide to Eating Healthy</h2>        
           <!-- vegetable blog -->
@@ -643,7 +648,7 @@
 
          </Section>
 
-         <Section class="px-4">
+         <Section class="px-4 overflow-hidden">
           <!-- vegetable blog tow -->
            <div class="lg:mt-10 mt-8 bg-secondary-back max-w-screen-xl px-4 mx-auto rounded-lg shadow-2xl">
             <div class="hero">
@@ -671,7 +676,7 @@
       <!-- top footer -->
       
     
-       <section class="">
+       <section class="overflow-hidden">
         <!-- top footer -->
 
         <section class="px-4 relative top-56 lg:-mt-20 -mt-44 z-10">
@@ -708,7 +713,7 @@
                </div>
 
                <!-- second -->
-                <div>
+                <div class="pt-7">
                   <ul class="space-y-7">
                     <li><a class="hover:text-yellow-300" href="">Product</a></li>
                     <li><a class="hover:text-yellow-300" href="">Services</a></li>
